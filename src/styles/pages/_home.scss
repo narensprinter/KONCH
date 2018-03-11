@@ -1,0 +1,22 @@
+.section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-one {
+    margin-top: -185px;
+    position: relative;
+    z-index: 10;
+    .section-content{
+      margin-top:70px;
+    }
+}
+.sample-img {
+    margin-left: -26px;
+}
+.site-desc{
+  color: #878787;
+}
+.site-title {
+    font-size: 20px;
+}
