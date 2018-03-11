@@ -1,0 +1,35 @@
+.site-header{
+  &:after{
+    clear:both;
+    overflow: hidden;
+    content: "";
+    display: table;
+  }
+}
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.logo{
+  float: left;
+}
+.site-navigation.nav{
+    float: right;
+    margin-top: 12px;
+   .nav-link + .nav-link{
+         margin-left:26px;
+   }
+}
+.nav-link {
+    padding:2px 0;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
