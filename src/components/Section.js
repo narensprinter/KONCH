@@ -27,7 +27,13 @@ const Section = () => (
               </div>
             </div>
             <div className="col-md-8">
-                <img className="" src="/images/image1.png" />
+                <div className="thumb-image-outer">
+                  <img className="thumb-image5" src="/images/image01.png" />
+                  <img className="thumb-image4" src="/images/image01.png" />
+                  <img className="thumb-image3" src="/images/image01.png" />
+                  <img className="thumb-image2" src="/images/image01.png" />
+                  <img className="thumb-image1" src="/images/image01.png" />
+                </div>
             </div>
           </div>
        </section>
@@ -48,16 +54,20 @@ const Section = () => (
       <section className="section-two">
          <div className="row">
            <div className="col-md-4 section-flex">
-             <div className="section-content">
+             <div className="section-content pb-3">
                 <div className="dotted-circle"></div>
                 <h3 className="site-title">Entities extracted from the transcript & images.</h3>
                 <p className="site-desc">Transcode & create all the assets you need in one shot.</p>
-                <p className="">This is a <span className="pro-box">PRO</span> feature, <br/></p>
-                <p className=""><a href="#" className="green-text font-weight-bold">find out more</a></p>
+                <p className="font-14 no-wrap">This is a <span className="pro-box">PRO</span> feature, <a href="#" className="green-text font-weight-bold">find out more</a></p>
              </div>
            </div>
            <div className="col-md-8">
-               <img className="" src="/images/bar.png" />
+               <div className="progress-bar-outer">
+                  <div className="progress-bar one">Friendship .10</div>
+                  <div className="progress-bar two">Cold .50</div>
+                  <div className="progress-bar three">Bananas .70</div>
+                  <div className="progress-bar four">Splurtiness .90</div>
+               </div>
            </div>
          </div>
       </section>
@@ -76,26 +86,27 @@ const Section = () => (
       </section>
       <section className="section-four">
           <h2 className="main-head mb-3">Developers, we have webhooks & endpoints for you.</h2>
-          <p>Loren Ipsum er ganske enkelt fyldekst fra print- og typografindustrien.<br/>Lorem Ipsum har vaeret standard fyldtekst siden 1500-tallet, hvor en.</p>
-          <div className="row mt-5">
+          <p className="mb-1">Loren Ipsum er ganske enkelt fyldekst fra print- og typografindustrien.</p>
+          <p>Lorem Ipsum har vaeret standard fyldtekst siden 1500-tallet, hvor en.</p>
+          <div className="row mt-5 pt-3">
              <div className="col-md-6 mb-3">
                 <img className="mb-2" src="/images/icon01.png" width="40" />
-               <h3 className="site-title">Create endpoints</h3>
+               <h3 className="site-title mb-3">Create endpoints</h3>
                <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
              </div>
              <div className="col-md-6 mb-3">
                 <img className="mb-2" src="/images/icon01.png" width="40" />
-               <h3 className="site-title">Create endpoints</h3>
+               <h3 className="site-title mb-3">Create endpoints</h3>
                <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
              </div>
              <div className="col-md-6 mb-3">
                 <img className="mb-2" src="/images/icon01.png" width="40" />
-               <h3 className="site-title">Create endpoints</h3>
+               <h3 className="site-title mb-3">Create endpoints</h3>
                <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
              </div>
              <div className="col-md-6 mb-3">
                 <img className="mb-2" src="/images/icon01.png" width="40" />
-               <h3 className="site-title">Create endpoints</h3>
+               <h3 className="site-title mb-3">Create endpoints</h3>
                <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
              </div>
            </div>

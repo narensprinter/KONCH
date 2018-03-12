@@ -36,22 +36,26 @@
 }
 .red-line {
   float: left;
-  margin-right: 15px;
-  width: 50px;
-  height: 8px;
+  margin-right: 12px;
+  width: 30px;
+  height: 4px;
   margin-top: 10px;
   margin-bottom: 100px;
   background-color: #c75976;
 }
 .section-three {
+  .section-content {
+      margin-left: -70px;
+  }
 }
 .pro-box {
   padding: 6px 12px;
   background-color: #7dbb91;
   color: #fff;
   border-radius: 20px;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 10px;
 }
 .green-text {
   color: #68be8d;
@@ -62,6 +66,9 @@
 .section-four {
   text-align: center;
   margin: 40px auto;
+  .site-desc {
+    color: #9e9e9e;
+  }
 }
 .main-head {
   font-size: 26px;
@@ -91,7 +98,7 @@
   position: absolute;
   height: 1650px;
   z-index: 0;
-  left: 290px;
+  left: 306px;
   top: 50px;
 }
 .dotted-circle {
@@ -100,6 +107,90 @@
   background-color: #27313c;
   border-radius: 100%;
   position: absolute;
-  top: 42%;
-  right: -27px;
+  top: 44%;
+  right: -34px;
+  outline: 4px solid #fff;
+}
+.font-14 {
+  font-size: 14px;
+}
+.progress-bar-outer {
+  margin-left: 15px;
+  margin-right: 15px;
+  .progress-bar {
+    border-radius: 20px;
+    text-align: right;
+    font-size: 18px;
+    padding: 5px 15px;
+    margin: 0px 0px 30px auto;
+    color: rgba(0,0,0,.4);
+    font-weight: 600;
+    &.one {
+      background-color: #e4b83a;
+      width: 30%;
+    }
+    &.two {
+      background-color: #7dbb91;
+      width: 50%;
+    }
+    &.three {
+      background-color: #72bec8;
+      width: 80%;
+    }
+    &.four {
+      background-color: #c386c6;
+      width: 100%;
+      margin-bottom: 0px;
+    }
+  }
+}
+.thumb-image-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    position: relative;
+    border-radius: 12px;
+    border: 2px solid #fff;
+  }
+  .thumb-image1 {
+    opacity: 1;
+    height: 210px;
+    z-index: 50;
+  }
+  .thumb-image2 {
+    opacity: .2;
+    height: 185px;
+    z-index: 40;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 12px 0px 0px 12px;
+  }
+  .thumb-image3 {
+    opacity: .2;
+    height: 160px;
+    z-index: 30;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 12px 0px 0px 12px;
+  }
+  .thumb-image4 {
+    opacity: .2;
+    height: 125px;
+    z-index: 20;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 12px 0px 0px 12px;
+  }
+  .thumb-image5 {
+    opacity: .2;
+    height: 80px;
+    z-index: 10;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 12px 0px 0px 12px;
+  }
+}
+.no-wrap {
+  white-space: nowrap;
 }
