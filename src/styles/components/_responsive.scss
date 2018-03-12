@@ -18,9 +18,15 @@
 }
 /* Mobile screen */
 @media (max-width: 767.99px) {
-
   .row,.banner-line,.sample-img{
     margin: 0px;
+  }
+  .banner-line {
+    height: 20px;
+  }
+  .banner-content {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .site-banner:after{
     display: none;
