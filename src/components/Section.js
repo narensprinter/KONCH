@@ -80,22 +80,22 @@ const Section = () => (
     <p>Loren Ipsum er ganske enkelt fyldekst fra print- og typografindustrien.<br/>Lorem Ipsum har vaeret standard fyldtekst siden 1500-tallet, hvor en.</p>
     <div className="row mt-5">
        <div className="col-md-6 mb-3">
-          <img className="mb-2" src="/images/icon01.png" width="50" />
+          <img className="mb-2" src="/images/icon01.png" width="40" />
          <h3 className="site-title">Create endpoints</h3>
          <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
        </div>
        <div className="col-md-6 mb-3">
-          <img className="mb-2" src="/images/icon01.png" width="50" />
+          <img className="mb-2" src="/images/icon01.png" width="40" />
          <h3 className="site-title">Create endpoints</h3>
          <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
        </div>
        <div className="col-md-6 mb-3">
-          <img className="mb-2" src="/images/icon01.png" width="50" />
+          <img className="mb-2" src="/images/icon01.png" width="40" />
          <h3 className="site-title">Create endpoints</h3>
          <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
        </div>
        <div className="col-md-6 mb-3">
-          <img className="mb-2" src="/images/icon01.png" width="50" />
+          <img className="mb-2" src="/images/icon01.png" width="40" />
          <h3 className="site-title">Create endpoints</h3>
          <p className="site-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
        </div>
