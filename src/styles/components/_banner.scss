@@ -17,7 +17,7 @@
       padding-bottom: 15px;
       background-color: #fff;
       background-repeat: no-repeat;
-      bottom:30px;
+      bottom:72px;
   }
 }
 .banner-content{
@@ -36,6 +36,8 @@
 .banner-line {
     text-align: right;
     margin-right: -4px;
+    z-index: 2;
+    position: relative;
 }
 .site-serach{
   position: relative;
